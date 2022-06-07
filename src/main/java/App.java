@@ -1,8 +1,9 @@
 import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws JAXBException {
         try {
             Book book = new Book();
 
